@@ -1,0 +1,12 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_custom_hre_logo"
+        texturefile = "gfx/interface/custom_hre/custom_hre_logo.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg"
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg.dds"
+        transparencecheck = yes
+    }
+}
