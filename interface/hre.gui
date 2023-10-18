@@ -28,6 +28,13 @@ guiTypes = {
 			position = { x= 0 y = -55 }
 		}
 
+		iconType =
+		{
+			name ="hre_bg_test" # This is to get a clean empty slate if need be
+			spriteType = "GFX_custom_hre_bg_empty"
+			position = { x= -10000 y = -55 }
+		}
+
 		guiButtonType = {
 			name = "join_league_button"
 			position = { x= 21 y = 98 }
@@ -144,7 +151,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "imperialdiet_label"
-			position = { x = 375 y = 560 }
+			position = { x = 380 y = 560 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
@@ -179,7 +186,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reforms_label"
-			position = { x = 150 y = 80 }
+			position = { x = 150 y = 85 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
@@ -215,7 +222,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "freecity_label"
-			position = { x = 630 y = 230 }
+			position = { x = 640 y = 247 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -226,7 +233,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "members_label"
-			position = { x = 630 y = 80 }
+			position = { x = 635 y = 98 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -290,7 +297,7 @@ guiTypes = {
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 395 y = 272 }
+			position = { x= 398 y = 270 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -303,7 +310,7 @@ guiTypes = {
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_hre_emp_benefits_icon"
-			position = { x= 370 y = 275 }
+			position = { x= 385 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -311,7 +318,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 370 y = 315 }
+			position = { x= 473 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -340,7 +347,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "no_incidents_label"
-				position = { x = 100 y = 600 }
+				position = { x = 110 y = 615 }
 				textureFile = ""
 				font = "vic_22s"
 				borderSize = {x = 4 y = 0}
@@ -352,7 +359,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "past_incidents_label"
-				position = { x = 626 y = 600 }
+				position = { x = 626 y = 615 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
@@ -432,7 +439,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_free_cities"
-			position = { x=640 y =250 }
+			position = { x=650 y =270 }
 			backGround=""
 			size = { x=120 y=115 }
 			Orientation = "UPPER_LEFT"
@@ -444,7 +451,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_members"
-			position = { x=600 y =100 }
+			position = { x=600 y =120 }
 			backGround=""
 			size = { x=200 y=120 }
 			Orientation = "UPPER_LEFT"
@@ -456,7 +463,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 128 y = 450 }
+			position = { x = 132 y = 450 }
 			size = { width = 200 height = 600 }
 			slotsize = { width = 88 height = 96 }
 			max_slots_horizontal = 0

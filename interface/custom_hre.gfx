@@ -1,12 +1,17 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_custom_hre_logo"
-        texturefile = "gfx/interface/custom_hre/custom_hre_logo.dds"
+        name = "GFX_custom_hre_logo" # For Chewy mod
+        texturefile = "gfx/interface/custom_hre/chewy_hre_logo.dds"
         transparencecheck = yes
     }
     spriteType = {
         name = "GFX_custom_hre_bg"
         texturefile = "gfx/interface/custom_hre/custom_hre_bg.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg_empty" # This is for testing purposes to get a clean empty slate if need be
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg_empty.dds"
         transparencecheck = yes
     }
 }
