@@ -509,7 +509,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "vote_button"
-			position = { x=150 y =266}
+			position = { x=370 y =365}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
