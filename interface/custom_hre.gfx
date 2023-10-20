@@ -5,8 +5,13 @@ spriteTypes = {
         transparencecheck = yes
     }
     spriteType = {
-        name = "GFX_custom_hre_bg"
+        name = "GFX_custom_hre_bg" # The normal one
         texturefile = "gfx/interface/custom_hre/custom_hre_bg.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg_extended" # Used during League Wars
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg_extended.dds"
         transparencecheck = yes
     }
     spriteType = {

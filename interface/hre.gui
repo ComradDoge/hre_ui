@@ -17,8 +17,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="hre_bg_extended"
-			spriteType = "GFX_hre_bg_extended"
-			position = { x= -21 y = 17 }
+			spriteType = "GFX_custom_hre_bg_extended"
+			position = { x= -100 y = -55 }
 		}
 
 		iconType =
@@ -37,7 +37,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_league_button"
-			position = { x= 21 y = 98 }
+			position = { x= -40 y = 98 }
 			quadTextureSprite ="GFX_join_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -49,7 +49,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_heretic_league_button"
-			position = { x= 804 y = 98 }
+			position = { x= 850 y = 98 }
 			quadTextureSprite ="GFX_join_heretic_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -63,7 +63,7 @@ guiTypes = {
 		{
 			name ="hre_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 42 y = 115 }
+			position = { x= -20 y = 115 }
 			hint_tag = "hint_religion"
 			alwaystransparent = yes
 		}
@@ -80,7 +80,7 @@ guiTypes = {
 		{
 			name ="hre_heretic_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 825 y = 115 }
+			position = { x= 870 y = 115 }
 			hint_tag = "hint_religion"
 			alwaystransparent = yes
 		}
@@ -98,7 +98,12 @@ guiTypes = {
 			format = left
 		}
 
-
+		iconType =
+		{
+			name ="hre_imperial_authority_circle"
+			spriteType = "GFX_join_league_button"
+			position = { x= 342 y = 98 }
+		}
 		iconType =
 		{
 			name ="hre_official_religion_icon"
@@ -122,7 +127,7 @@ guiTypes = {
 		{
 			name ="hre_war_peace_icon"
 			spriteType = "GFX_hre_war_peace_strip"
-			position = { x= 592 y = 110 }
+			position = { x= 356 y = 158 }
 			hint_tag = "hint_religion"
 			frame = 1
 			scale = 0.8
@@ -163,7 +168,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "permanent_diet_location"
-			position = { x = 654 y = 386 }
+			position = { x = 380 y = 540 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
@@ -222,7 +227,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "freecity_label"
-			position = { x = 640 y = 247 }
+			position = { x = 630 y = 247 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -233,7 +238,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "members_label"
-			position = { x = 635 y = 98 }
+			position = { x = 630 y = 98 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -310,7 +315,7 @@ guiTypes = {
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_hre_emp_benefits_icon"
-			position = { x= 385 y = 330 }
+			position = { x= 473 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -318,7 +323,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 473 y = 330 }
+			position = { x= 385 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -327,7 +332,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "incident_label"
-				position = { x = 361 y = 421 }
+				position = { x = 160 y = 580 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
@@ -337,11 +342,11 @@ guiTypes = {
 				format = left
 			}
 
-			OverlappingElementsBoxType = {
+			OverlappingElementsBoxType = { 
 				name = "incident_options"
-				position = { x = 354 y = 582 }
+				position = { x = 160 y = 600 }
 				size = { x = 268 y = 100}
-				format = center
+				format = left
 				spacing = 72
 			}
 
@@ -359,7 +364,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "past_incidents_label"
-				position = { x = 626 y = 615 }
+				position = { x = 615 y = 580 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
@@ -371,8 +376,8 @@ guiTypes = {
 
 			listboxType = {
 				name = "previous_incidents_container"
-				position = { x = 629 y = 439 }
-				size = { x = 130 y = 70 }
+				position = { x = 595 y = 600 }
+				size = { x = 108 y = 80 }
 				scrollbartype = "standardlistbox_slider"
 			}
 
@@ -439,7 +444,7 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_free_cities"
-			position = { x=650 y =270 }
+			position = { x=640 y =270 }
 			backGround=""
 			size = { x=120 y=115 }
 			Orientation = "UPPER_LEFT"
@@ -451,9 +456,9 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_members"
-			position = { x=600 y =120 }
+			position = { x=600 y =125 }
 			backGround=""
-			size = { x=200 y=120 }
+			size = { x=200 y=114 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -472,9 +477,9 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_league"
-			position = { x=15 y =167 }
+			position = { x=-45 y =167 }
 			backGround=""
-			size = { x=69 y=500 }
+			size = { x=69 y=510 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -484,9 +489,9 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_heretic_league"
-			position = { x=798 y =167 }
+			position = { x=845 y =167 }
 			backGround=""
-			size = { x=69 y=500 }
+			size = { x=69 y=510 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -496,7 +501,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close_button"
-			position = { x=620 y =686}
+			position = { x=620 y =695}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
@@ -521,7 +526,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "dismantel_button"
-			position = { x= 417 y = 686}
+			position = { x= 417 y = 695}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_DISMANTLE"
 			buttonFont = "vic_18"
@@ -529,7 +534,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "leave_button"
-			position = { x= 119 y = 686}
+			position = { x= 119 y = 695}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_LEAVE"
 			buttonFont = "vic_18"
@@ -537,7 +542,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_button"
-			position = { x= 119 y = 686}
+			position = { x= 119 y = 695}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_JOIN"
 			buttonFont = "vic_18"
@@ -545,7 +550,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "add_all_button"
-			position = { x= 268 y = 686}
+			position = { x= 268 y = 695}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_ADD_ALL"
 			buttonFont = "vic_18"
