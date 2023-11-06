@@ -2,6 +2,7 @@ tags={
 	"Graphics"
 }
 name="Holy Roman Empire Interface Reworked (Ironman)"
+picture="thumbnail.png"
 supported_version="1.36.*"
-path = "mod/hre_ui"
-picture = "thumbnail.png"
+path="/mod/hre_ui"
+remote_file_id="3055348245"
